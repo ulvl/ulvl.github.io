@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home - Universal Level Formats Library</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Python library for reading and writing generic level formats">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+
+<body>
+    <h1 class="header">Universal Level Formats Library</h1>
+    <nav class="header">
+        <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="https://github.com/ulvl/ulvl">Project Page</a></li>
+            <li><a href="https://www.patreon.com/diligentcircle">Patreon</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <p>The Universal Level Formats Library (ulvl) is a simple Python
+        library for reading and writing simple, universal level formats.
+        Three formats are available: the JSON-based JSL, the ASCII-based
+        ASCL, and the XML-based ULX. ulvl also supports importing data
+        from files in the Tiled map editor's TMX format (but does not
+        support saving to that format).</p>
+        <p>I designed this years ago before I learned about the Tiled
+        Map Editor in an attempt to facilitate a generic level editor.
+        When I found out about Tiled, I dropped the idea, deciding that
+        it was unnecessary due to the existence of Tiled, and began
+        maintaining my own library for reading and writing Tiled's TMX
+        format (the Simple TMX Library, or "tmx"; not to be confused
+        with PyTMX and tmxlib).</p>
+        <p>However, I have since found the TMX format to be too complex
+        for my use-case, while at the same time I want to continue to
+        use Tiled as a basic level editor. This library is meant to fill
+        that gap: allowing importation of the basic data found in a
+        Tiled TMX file, while also supporting reading and writing of
+        simpler, more generic level formats which could also in theory
+        be used by other editors.</p>
+    </main>
+
+    <div class="footer">
+        <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="CC BY-SA" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />This page is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+    </div>
+</body>
+
+</html>
