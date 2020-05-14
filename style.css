@@ -1,7 +1,7 @@
 body
 {
     color: black;
-    background: #CCF;
+    background: #ACF;
 }
 
 h1.header
@@ -19,19 +19,19 @@ a
 
 a:visited
 {
-    color: #408;
+    color: #058;
 }
 
 a:hover
 {
-    color: #C08;
+    color: #084;
     font-weight: bold;
     text-decoration: none;
 }
 
 nav.header
 {
-    background: #5B0D87;
+    background: #0D5B87;
     border-style: hidden;
     border-radius: 12px;
     width: 94%;
@@ -79,13 +79,13 @@ nav.header a, nav.header a:hover, nav.header a:visited
 
 nav.header li.current a, nav.header a:hover
 {
-    background: #04B;
+    background: #0B4;
     box-shadow: 3px 3px black;
 }
 
 main
 {
-    background: #DDF;
+    background: #DBEEFF;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -135,7 +135,7 @@ details.faq summary
 
 details.faq summary:hover
 {
-    color: #C08;
+    color: #0C8;
     font-weight: bold;
     text-decoration: none;
 }
